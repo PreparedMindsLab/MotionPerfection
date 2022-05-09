@@ -1,0 +1,12 @@
+The documentation of the OPmac is:
+
+opmac-u.tex,pdf    ... user documentation (in Czech)
+opmac-u-en.tex,pdf ... user documentation (in English)
+opmac-d.tex        ... technical documentation (in Czech)
+
+See http://petr.olsak.net/opmac.html for more information.
+
+This is part of csplain package.
+
+The version of the OPmac can be found in the file
+tex/csplain/opmac/opmac.tex at line 8.

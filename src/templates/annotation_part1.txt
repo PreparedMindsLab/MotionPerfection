@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[margin=0.2in,paperwidth=16in,paperheight=13.8in]{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[most]{tcolorbox}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{multirow}
+
+\definecolor{boxyellow}{RGB}{241, 236, 155}
+
+\definecolor{blue1}{RGB}{222, 234, 246}
+\definecolor{blue2}{RGB}{156, 194, 229}
+\definecolor{blue3}{RGB}{41, 141, 242}
+\definecolor{purple1}{RGB}{248, 206, 255}
+\definecolor{green1}{RGB}{187, 249, 196}
+
+\newtcolorbox[auto counter]{summary}[1][]{title={\bfseries Timing},enhanced,drop shadow={black!50!white},
+  coltitle=black,
+  top=0.0in,
+  attach boxed title to top left=
+  {xshift=5pt, yshift=-20pt},
+  boxed title style={size=small,colback=pink},#1}
+  
+\newtcolorbox[auto counter]{dir}[1][]{title={\bfseries Hip Direction},enhanced,drop shadow={black!50!white},
+  coltitle=black,
+  width = 89.3em,
+  top=0.0in,
+  attach boxed title to top left=
+  {xshift=5pt, yshift=-20pt},
+  boxed title style={size=small,colback=pink},#1}
+  
+\newtcolorbox[auto counter]{seg}[1][]{title={\bfseries Segment Position},enhanced,drop shadow={black!50!white},
+  coltitle=black,
+  top=0.0in,
+  width = 76em,
+  attach boxed title to top left=
+  {xshift=5pt, yshift=-20pt},
+  boxed title style={size=small,colback=pink},#1}
+
+
+
+\def\DefaultHeightofCheckBox{0.4\baselineskip}
+\def\DefaultWidthofCheckBox{1\baselineskip}
+
+
+
+
+\begin{document}
+
+  \begin{figure} 
+    \centering 

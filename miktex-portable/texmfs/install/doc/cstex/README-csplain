@@ -1,0 +1,9 @@
+The documentation of csplain is on the site
+
+   http://petr.olsak.net/csplain.html
+
+The version of the csplain is in the format "Mon. Year".
+It can be found in the file tex/csplain/base/csplain.ini
+at the line 15 where the banner of csplain is defined.
+
+More information is in the file tex/csplain/base/csplain.ini.

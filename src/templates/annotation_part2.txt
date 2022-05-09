@@ -1,0 +1,174 @@
+
+ \vspace{0.3cm}
+ \end{figure} 
+    \begin{minipage}{0.195\textwidth}
+
+     \centering
+     \includegraphics[width=.95\linewidth]{./modelpose.png}\\
+    \end{minipage}
+    \begin{minipage}{0.195\textwidth}
+     \centering
+     \includegraphics[width=.95\linewidth]{./modelpose2.png}\\
+    \end{minipage}
+    \begin{minipage}{0.195\textwidth}
+     \centering
+     \includegraphics[width=.95\linewidth]{./modelpose3.png}\\
+    \end{minipage}
+    \begin{minipage}{0.195\textwidth}
+     \centering
+     \includegraphics[width=.95\linewidth]{./modelpose4.png}\\
+    \end{minipage}
+    \begin{minipage}{0.195\textwidth}
+     \centering
+     \includegraphics[width=.95\linewidth]{./modelpose5.png}\\
+
+    \end{minipage}
+\begin{Form}[] 
+
+
+
+\begin{summary}[boxed title style={colback=yellow},colback=boxyellow]
+
+
+  \vspace{1cm}
+
+
+   \begin{minipage}{0.195\textwidth}
+    
+     \centering
+     \includegraphics[width=.95\linewidth]{./student_1.png}\\
+   \end{minipage}
+   \begin{minipage}{0.195\textwidth}
+     \centering
+     \includegraphics[width=.95\linewidth]{./student_2.png}\\
+   \end{minipage}
+   \begin{minipage}{0.195\textwidth}
+     \centering
+     \includegraphics[width=.95\linewidth]{./student_3.png}\\
+   \end{minipage}
+   \begin{minipage}{0.195\textwidth}
+     \centering
+     \includegraphics[width=.95\linewidth]{./student_4.png}\\
+   \end{minipage}
+   \begin{minipage}{0.195\textwidth}
+     \centering
+     \includegraphics[width=.95\linewidth]{./student_5.png}\\
+    
+   \end{minipage}
+   \vspace{0.1cm}
+
+
+\begin{minipage}{0.96\linewidth}
+
+\begin{large} 
+
+\begin{tabular}{l} 
+\\
+\hspace{2.3cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=ve0]{Very early}
+\hspace{4.8cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=se0]{Slightly early} 
+\hspace{4.8cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=c0]{Correct} 
+\hspace{4.8cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=sl0]{Slightly late} 
+\hspace{4.8cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=vl0]{Very late} 
+\\
+\noindent\rule{38cm}{0.4pt}
+\\
+\\
+\hspace{14.5cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=wm0]{Off music} 
+\hspace{4cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=w20]{I don't know}
+\end{tabular} 
+\\
+\end{large}
+
+
+\vspace{0.3cm}
+\end{minipage}
+
+
+
+\end{summary} 
+
+\begin{minipage}{0.8\linewidth}
+\begin{dir}[boxed title style={colback=yellow},colback=boxyellow] 
+\begin{large} 
+
+\begin{tabular}{l} 
+\\
+   \hspace{6cm} \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=cd0]{Correct} \hspace{1cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=wd0]{Wrong} \hspace{1cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=w30]{I don't know} \hspace{1cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=nv0]{Not visible} \\
+   
+   \noindent\rule{30cm}{0.4pt}
+   \\
+   \\
+   \hspace{0.47cm} \textbf{Dancer is facing:} \hspace{0.2cm} \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p10]{Point 1} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p20]{Point 2}  \hspace{0.5cm} \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p30]{Point 3} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p40]{Point 4}  \hspace{0.5cm} \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p50]{Point 5} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p60]{Point 6} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p70]{Point 7} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p80]{Point 8} \\
+   \\
+    \textbf{Dancer should face:} \hspace{0.2cm} \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p11]{Point 1}  \hspace{0.5cm} \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p21]{Point 2}  \hspace{0.5cm} \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p31]{Point 3} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p41]{Point 4} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p51]{Point 5} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p61]{Point 6} \hspace{0.5cm}  \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p71]{Point 7}  \hspace{0.5cm} \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, width=1.2em,name=p81]{Point 8} 
+   \\
+   \\
+\end{tabular}
+
+\end{large} 
+\end{dir} 
+\end{minipage} 
+\begin{minipage}{0.5\linewidth}
+  \includegraphics[width=6.6cm]{modelposeMarked.png}
+\end{minipage}
+
+\vspace{0.3cm}
+
+\newcolumntype{a}{>{\columncolor{green1}}p}
+\newcolumntype{b}{>{\columncolor{purple1}}p}
+\newcolumntype{d}{>{\columncolor{blue1}}p}
+
+\begin{minipage}{0.8\linewidth}
+
+  \begin{large} 
+\begin{seg}[boxed title style={colback=yellow},colback=boxyellow] 
+
+\setlength\arrayrulewidth{1.5pt}
+
+
+
+\begin{tabular}{l} 
+
+\\
+\hspace{4.68cm} \CheckBox[checkboxsymbol=8, width=1em,bordercolor=0 0 0, name=sc0]{Correct}  \hspace{1cm}  \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=sw0]{Wrong} $\rightarrow$ You should correct: \\ 
+\\
+
+\begin{tabular}{ | a{0.11\linewidth} | a{0.05\linewidth} | a{0.10\linewidth} | b{0.15\linewidth} | b{0.05\linewidth} | b{0.10\linewidth} | d{0.11\linewidth} | d{0.05\linewidth} | d{0.10\linewidth} | } 
+\hline 
+\textbf{Right body \newline segment} & \textbf{Not visible} & \textbf{Comment} & \textbf{Central body segment} & \textbf{Not visible} & \textbf{Comment} & \textbf{Left body \newline segment} & \textbf{Not visible} & \textbf{Comment}\\ \hline 
+
+& & & & & & & & \\
+
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx10]{neck-shoulder} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx20]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf10]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx30]{forehead-chin(eyeline)} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx40]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf20]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx50]{neck-shoulder} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx60]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf30]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx11]{shoulder-elbow} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx21]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf11]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx31]{chin-neck} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx41]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf21]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx51]{shoulder-elbow} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx61]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf31]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx12]{elbow-wrist} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx22]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf12]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx32]{neck-chest} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx42]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf22]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx52]{elbow-wrist} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx62]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf32]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx13]{wrist-index} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx23]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf13]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx33]{chest-spine} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx43]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf23]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx53]{wrist-index} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx63]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf33]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx14]{sacrum-upleg} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx24]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf14]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx34]{spine-sacrum} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx44]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf24]{} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx54]{sacrum-upleg} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx64]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf34]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx15]{upleg-knee} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx25]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf15]{} &  & &  & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx55]{upleg-knee} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx65]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf35]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx70]{knee} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx71]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf40]{} &  & &  & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx72]{knee} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx73]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf41]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx16]{knee-ankle} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx26]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf16]{} &  & &  & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx56]{knee-ankle} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx66]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf36]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx17]{ankle-heel} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx27]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf17]{} & & &  & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx57]{ankle-heel} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx67]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf37]{}  \\ 
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx18]{heel-metat.} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx28]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf18]{} &  & &  & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx58]{heel-metat.} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx68]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf38]{}  \\  
+\CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx19]{metat.-big toe} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx29]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf19]{} &  & &  & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx59]{metat.-big toe} & \CheckBox[checkboxsymbol=8, bordercolor=0 0 0, name=cbx69]& \TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=tf39]{}  \\  
+ 
+  & & & & & & & & \\
+
+\hline
+\end{tabular}
+\vspace{0.3cm} 
+\end{tabular} 
+
+
+\TextField[bordercolor=0 0 0,height=1.2em, width=0.9\linewidth,name=oc0]{Other comments: }
+
+\end{seg} 
+
+\end{large} 
+\end{minipage}
+\begin{minipage}{0.25\linewidth}
+  \includegraphics[width=7cm]{diagram.png}
+\end{minipage}
+
+\end{Form}
+
+\end{document}
