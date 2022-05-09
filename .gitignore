@@ -1,0 +1,9 @@
+*.obj
+*.pch
+*.ipch
+*.db
+*.log
+src/findFrame/.vs/
+src/findFrame/x64/
+src/findFrame/findFrame/x64/
+~*
