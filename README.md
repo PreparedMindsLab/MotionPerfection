@@ -2,6 +2,8 @@
 
 This software tool enables users to easily visualise, analyse, annotate and record a practice routine (dance, workout, martial arts, etc.). The focal participant imitates and follows the movement of a model video whilst being video recorded. The software can then extract certain key frames from both videos and create multi-page PDF assessment forms for experts to easily assess the performance of the focal participant. 
 
+A tutorial video is available showing how to use the software, and the results that can be acheived.
+https://www.youtube.com/watch?v=qAehvhGQZGs
 
 ## Important
 - **MikTex** Copyright notice...this project includes a copy of MikTex, bundled here for convenience. It was originally downloaded then configured according to the instructions for creating a portable image. It was then run, and therefore it automatically installed any support libraries needed for MikText to convert to PDFs. The image including those additional components was then added to this repository. Note...this version is static and will not include any subsequent updates which may be added to the main MikTex project.
