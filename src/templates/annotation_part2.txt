@@ -73,7 +73,7 @@
 \noindent\rule{38cm}{0.4pt}
 \\
 \\
-\hspace{14.5cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=wm0]{Off music} 
+\hspace{14.5cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=wm0]{Mismatch} 
 \hspace{4cm} \CheckBox[checkboxsymbol=8, width=1.2em,bordercolor=0 0 0, name=w20]{I don't know}
 \end{tabular} 
 \\
