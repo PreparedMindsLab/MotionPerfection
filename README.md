@@ -70,6 +70,13 @@ Alternatively, if you want to use command line:
 - Assuming your software is intalled in D:\danceTools, your Working Folder is D:\performancePDFs, your time offset is 2345.67 seconds, and the video to be focalVideo.mp4 found in the folder E:\recordings.
 - Open a command line window (cmd or powershell) and make D:\danceTools the current directory
 - Enter into the command line: \
-  .\extractAndPrepareFocalPoses.cmd D:\performancePDFs \frames D:\performancePDFs\modelposes E:\recordings\image_times.txt E:\recordings\focalVideo.mp4 2345.67 D:\performancePDFs\pdfs 
+  .\extractAndPrepareFocalPoses.cmd D:\performancePDFs\frames D:\performancePDFs\modelposes E:\recordings\image_times.txt E:\recordings\focalVideo.mp4 2345.67 D:\performancePDFs\pdfs 
 - This will create an editable assessment PDF showing each of the participant poses compared with the equivalent model poses in the folder D:\performancePDFs\PDFs
 - Repeat for each participant’s video
+
+### Testing: To check system can rodcue the correct output
+- Two test videos have been provided that contain simple black frames with a white number showing th ecurrent frame number. These have been produced at different frame rates.
+- The two command lines below will extract from test.avi as if it were a model video and from test2.avi as a focal video to create a PDF file.
+-  .\extractAndPrepareModelPoses.cmd D:\performancePDFs\frames D:\performancePDFs\modelposes D:\danceTools\testing\image_times_test.txt D:\danceTools\testing\test.avi 10
+-  .\extractAndPrepareFocalPoses.cmd D:\performancePDFs\frames D:\performancePDFs\modelposes D:\danceTools\testing\image_times_test.txt D:\danceTools\testing\test2.avi 10 D:\performancePDFs\pdfs 
+- The resulting PDF should be the same as "Test_result.pdf" supplied in the testing folder.

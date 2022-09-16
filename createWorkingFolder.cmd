@@ -15,6 +15,8 @@ if "%argsOK%" NEQ "1" (
     copy %parent%\src\bin\* %1
     copy %parent%\src\findFrame\x64\Release\* %1
     copy %parent%\src\GUI\dist\* %1
+    mkdir %1\testing
+    copy %parent%\src\testing\* %1\testing
     echo copying miktex....this takes a while
     mkdir %1\miktex-portable\
     xcopy %parent%\miktex-portable\* %1\miktex-portable\ /s /y /q
